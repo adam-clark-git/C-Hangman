@@ -5,11 +5,9 @@
             "label": "C/C++: cl.exe build active file",
             "command": "cl.exe",
             "args": [
-                "/Zi",
-                "/EHsc",
-                "/nologo",
-                "/Fe${fileDirname}\\${fileBasenameNoExtension}.exe",
-                "${file}"
+                "${workspaceFolder}/code/*.cpp",
+                "-o",
+                "${workspaceFolder}/code/word.exe"
             ],
             "options": {
                 "cwd": "${fileDirname}"
