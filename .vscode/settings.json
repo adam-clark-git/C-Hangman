@@ -48,6 +48,11 @@
         "xmemory": "cpp",
         "xstring": "cpp",
         "xtr1common": "cpp",
-        "xutility": "cpp"
+        "xutility": "cpp",
+        "algorithm": "cpp",
+        "fstream": "cpp",
+        "optional": "cpp",
+        "random": "cpp",
+        "vector": "cpp"
     }
 }
