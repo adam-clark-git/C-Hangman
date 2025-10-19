@@ -9,7 +9,7 @@ std::string RandomWord::randomize() {
     std::random_device rd;
     std::mt19937 gen(rd());
     
-    std::fstream myFile("code/datasets/dataset_words.txt");
+    std::fstream myFile("dataset_words.txt");
     if (!myFile.is_open())
     {
         std::cerr << "Unable to open file!" << std::endl;
